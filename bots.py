@@ -133,7 +133,7 @@ class TelegramBot():
 
 if __name__ == '__main__':
 
-    print("Corriendo robot de Telegram - BetSolver ......................................................................................")
+    print("Corriendo robot de Telegram - BetSolver VERSION 1.1.2 ......................................................................................")
     
     tb = TelegramBot()
 
@@ -153,6 +153,8 @@ if __name__ == '__main__':
                 filtro = "Filtro 4"
             elif(Tipofiltro == 5):
                 filtro = "Filtro 5"
+            elif(Tipofiltro == 6):
+                filtro = "Filtro 6"
 
 
                 
@@ -198,125 +200,125 @@ if __name__ == '__main__':
                         if(nombreEstrategia == "Local Estrategia 5.5"): #GANA EMPATE LOCAL
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[9] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[9] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/ImageEstrategiaOver1_5LocalFavorito.jpeg", cadena, canal)
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia15FullTimeMarkBroken.jpg", cadena, canal)
 
 
                         if(nombreEstrategia == "Visitante  Estrategia 5.5"): #GANA EMPATE VISITANTE
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[9] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[9] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
                             tb.send_photo_to_channel("../Futbol/Imagenes/ImageEstrategiaOver1_5VisitanteFavorito.jpeg", cadena, canal)
 
                         if(nombreEstrategia == "Local Estrategia 3.5"): #DOS GOLES PRIMER TIEMPO HT 
-                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
-                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
+                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[9] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
+                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[9] + "\n"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
                             tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT.jpeg", cadena, canal)
 
                             
                         if(nombreEstrategia == "Visitante  Estrategia 3.5"): #DOS GOLES PRIMER TIEMPO HT 
-                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
-                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
+                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[9] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
+                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[9] + "\n"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
                             tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT.jpeg", cadena, canal)
 
            
                         if(nombreEstrategia == "Local Estrategia 3"): #DOS GOLES PRIMER TIEMPO HT LOCAL 
-                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
-                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
+                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[9] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
+                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[9] + "\n"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
                             tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT.jpeg", cadena, canal)
 
                         if(nombreEstrategia == "Visitante  Estrategia 3"): #DOS GOLES PRIMER TIEMPO HT VISITANTE
-                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
-                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
+                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[9] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
+                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[9] + "\n"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
                             tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT.jpeg", cadena, canal)
                
                         if(nombreEstrategia == "Local Estrategia 5"):     
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/ImageEstrategiaOver.jpeg", cadena, canal)
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia15FullTimeMarkBroken.jpg", cadena, canal)
 
                         if(nombreEstrategia == "Visitante  Estrategia 5"):     
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/ImageEstrategiaOver.jpeg", cadena, canal)
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia15FullTimeMarkBroken.jpg", cadena, canal)
 
                         if(nombreEstrategia == "Local Estrategia 4"):     
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
                             tb.send_photo_to_channel("../Futbol/Imagenes/TresMasGoles.jpeg", cadena, canal)
                         
                         if(nombreEstrategia == "Visitante  Estrategia 4"):     
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
                             tb.send_photo_to_channel("../Futbol/Imagenes/TresMasGoles.jpeg", cadena, canal)   
 
 
                         if(nombreEstrategia == "Local Estrategia 2"):       
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/ImagenEstrategiaOver05_FT.jpeg", cadena, canal) 
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia05FullTimeMarkBroken.jpeg", cadena, canal) 
 
                         if(nombreEstrategia == "Visitante  Estrategia 2"): 
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)  
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/ImagenEstrategiaOver05_FT.jpeg", cadena, canal)  
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia05FullTimeMarkBroken.jpeg", cadena, canal)  
 
                         if(nombreEstrategia == "Local Estrategia 8"):       
-                            print("Se envio " + "Liga: " + str(x[3]) + " Local: " + x[4] + " Visitante: " +  x[6] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
-                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[2].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[3]) + "\n" + "<b>🤑Local: </b>" + x[4] + "\n" + "<b>🤑Visitante: </b>" +  x[6] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/ImagenEstrategiaOver05_FT.jpeg", cadena, canal)                           
+                            print("Se envio " + "Liga: " + str(x[3]) + " Local: " + x[4] + " Visitante: " +  x[5] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
+                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[2].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[3]) + "\n" + "<b>🤑Local: </b>" + x[4] + "\n" + "<b>🤑Visitante: </b>" +  x[5] + "\n"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia05FullTimeMarkBroken.jpg", cadena, canal)                           
                         
                         if(nombreEstrategia == "Visitante  Estrategia 8"):       
-                            print("Se envio " + "Liga: " + str(x[3]) + " Local: " + x[4] + " Visitante: " +  x[6] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
-                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[2].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[3]) + "\n" + "<b>🤑Local: </b>" + x[4] + "\n" + "<b>🤑Visitante: </b>" +  x[6] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/ImagenEstrategiaOver05_FT.jpeg", cadena, canal)
+                            print("Se envio " + "Liga: " + str(x[3]) + " Local: " + x[4] + " Visitante: " +  x[5] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
+                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[2].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[3]) + "\n" + "<b>🤑Local: </b>" + x[4] + "\n" + "<b>🤑Visitante: </b>" +  x[5] + "\n"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia05FullTimeMarkBroken.jpg", cadena, canal)
 
-                        if(nombreEstrategia == "Local Estrategia 6"):        
-                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[5] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual) 
-                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[5] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/ImageEstrategiaOver1_5LocalFavorito.jpeg", cadena, canal)
-
-                        if(nombreEstrategia == "Visitante  Estrategia 6"):   
-                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[5] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)     
-                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[5] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/ImageEstrategiaOver1_5VisitanteFavorito.jpeg", cadena, canal)
-        
                         if(nombreEstrategia == "Visitante  Estrategia 0"):       
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)   
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPartido0_5FT.jpeg", cadena, canal)
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia05FullTimeMarkBroken.jpg", cadena, canal)
 
                         if(nombreEstrategia == "Local Estrategia 0"):      
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)    
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPartido0_5FT.jpeg", cadena, canal)
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia05FullTimeMarkBroken.jpg", cadena, canal)
+                        
+                        if(nombreEstrategia == "Visitante  Estrategia 6"):       
+                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)   
+                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia05FullTimeMarkBroken.jpg", cadena, canal)
+
+                        if(nombreEstrategia == "Local Estrategia 6"):      
+                            print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)    
+                            cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[4] + "\n"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia05FullTimeMarkBroken.jpg", cadena, canal)
 
                         if(nombreEstrategia == "Partidos Local Patrones"):      
                             print("Se envio " + "Liga: " + str(x[3]) + " Local: " + x[4] + " Visitante: " +  x[5] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)    
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[2].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[3]) + "\n" + "<b>🤑Local: </b>" + x[4] + "\n" + "<b>🤑Visitante: </b>" +  x[5] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/ImageEstrategiaOver1_5LocalFavorito.jpeg", cadena, canal)
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
+                            tb.send_photo_to_channel("../Futbol/Imagenes/estrategia15FullTimeMarkBroken.jpg", cadena, canal)
 
                         if(nombreEstrategia == "Partidos Visitante Patrones"):      
                             print("Se envio " + "Liga: " + str(x[3]) + " Local: " + x[4] + " Visitante: " +  x[5] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)    
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[2].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[3]) + "\n" + "<b>🤑Local: </b>" + x[4] + "\n" + "<b>🤑Visitante: </b>" +  x[5] + "\n"
-                            cadena += "No se pierda Todos nuestros pronósticos <a  target='_blank' href='https://betsolverpro.com//'>Betsolverpro.com</a>"
+                            cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
                             tb.send_photo_to_channel("../Futbol/Imagenes/ImageEstrategiaOver1_5VisitanteFavorito.jpeg", cadena, canal)
                         
         
@@ -331,25 +333,9 @@ if __name__ == '__main__':
     filtro3 = R'../Futbol/Partidos_estrategias Filtro 3.xlsx'
     filtro4 = R'../Futbol/Partidos_estrategias Filtro 4.xlsx'
     filtro5 = R'../Futbol/Partidos_estrategias Filtro 5.xlsx'
+    filtro6 = R'../Futbol/Partidos_estrategias Filtro 6.xlsx'
 
     filtroPatrones = R'../Futbol/Listado_partidosPatrones.xlsx'
-
-    nombreEstrategia = ["Local Estrategia 5.5",
-    "Visitante  Estrategia 5.5",
-    "Local Estrategia 3.5",
-    "Local Estrategia 3",
-    "Local Estrategia 5",
-    "Visitante  Estrategia 5",
-    "Local Estrategia 4",
-    "Visitante  Estrategia 4",
-    "Local Estrategia 2",
-    "Local Estrategia 6",
-    "Local Estrategia 0",
-    "Visitante  Estrategia 0",
-    "Visitante  Estrategia 3",
-    "Local Estrategia 8",
-    "Visitante  Estrategia 8"]
-
 
             
     BetSolver_05_HT_un_gol_o_mas_1_tiempo = "-1001731867847"
@@ -365,34 +351,36 @@ if __name__ == '__main__':
     #Estan van por el telegram real
     #Funciom, excel, Nombre estrategia, tipo filtro, minutos antes o  despues, canal.
 
+    schedule.every(1).minute.do(envioGeneral,filtro1,"Local Estrategia 5.5",1,-80,BetSolver_15_FT_FULLTIME_DOSOMASGOLESENELPARTIDO)
+    schedule.every(1).minute.do(envioGeneral,filtro1,"Visitante  Estrategia 5.5",1,-80,BetSolver_15_FT_FULLTIME_DOSOMASGOLESENELPARTIDO)
+
     schedule.every(1).minute.do(envioGeneral,filtro2,"Local Estrategia 3",2,-17,BetSolver_05_HT_un_gol_o_mas_1_tiempo)
     schedule.every(1).minute.do(envioGeneral,filtro2,"Visitante  Estrategia 3",2,-17,BetSolver_05_HT_un_gol_o_mas_1_tiempo)
 
     schedule.every(1).minute.do(envioGeneral,filtro2,"Local Estrategia 3.5",2,-17,BetSolver_05_HT_un_gol_o_mas_1_tiempo) 
-    schedule.every(1).minute.do(envioGeneral,filtro2,"Visitante  Estrategia 3.5",2,-17,BetSolver_05_HT_un_gol_o_mas_1_tiempo) #Esta
-
-
-    schedule.every(1).minute.do(envioGeneral,filtro1,"Local Estrategia 5.5",1,-80,BetSolver_15_FT_FULLTIME_DOSOMASGOLESENELPARTIDO)
-    schedule.every(1).minute.do(envioGeneral,filtro1,"Visitante  Estrategia 5.5",1,-80,BetSolver_15_FT_FULLTIME_DOSOMASGOLESENELPARTIDO)
-
-#   schedule.every(1).minute.do(envioGeneral,filtro1,"Local Estrategia 6",1,-80,BetSolver_15_FT_FULLTIME_DOSOMASGOLESENELPARTIDO)
-#   schedule.every(1).minute.do(envioGeneral,filtro1,"Visitante  Estrategia 6",1,-80,BetSolver_15_FT_FULLTIME_DOSOMASGOLESENELPARTIDO)#Esta
+    schedule.every(1).minute.do(envioGeneral,filtro2,"Visitante  Estrategia 3.5",2,-17,BetSolver_05_HT_un_gol_o_mas_1_tiempo)
 
     schedule.every(1).minute.do(envioGeneral,filtro3,"Local Estrategia 5",3,-38,BetSolver_15_FT_FULLTIME_DOSOMASGOLESENELPARTIDO)
     schedule.every(1).minute.do(envioGeneral,filtro3,"Visitante  Estrategia 5",3,-38,BetSolver_15_FT_FULLTIME_DOSOMASGOLESENELPARTIDO)
 
+    schedule.every(1).minute.do(envioGeneral,filtro3,"Local Estrategia 5",3,-80,BetSolver_15_FT_FULLTIME_DOSOMASGOLESENELPARTIDO)
+    schedule.every(1).minute.do(envioGeneral,filtro3,"Visitante  Estrategia 5",3,-80,BetSolver_15_FT_FULLTIME_DOSOMASGOLESENELPARTIDO)
+
+    schedule.every(1).minute.do(envioGeneral,filtro3,"Local Estrategia 4",3,-17,Betsolver_FullTime_25_TresOMasGolesPartido)
+    schedule.every(1).minute.do(envioGeneral,filtro3,"Visitante  Estrategia 4",3,-17,Betsolver_FullTime_25_TresOMasGolesPartido)
+
     schedule.every(1).minute.do(envioGeneral,filtro4,"Local Estrategia 0",4,-80,BetSolver_Over_05_UnGolOmasPartido)
     schedule.every(1).minute.do(envioGeneral,filtro4,"Visitante  Estrategia 0",4,-80,BetSolver_Over_05_UnGolOmasPartido)
 
-
-    schedule.every(1).minute.do(envioGeneral,filtro4,"Local Estrategia 2",4,-80,BetSolver_Over_05_UnGolOmasPartido)
-    schedule.every(1).minute.do(envioGeneral,filtro4,"Visitante  Estrategia 2",4,-80,BetSolver_Over_05_UnGolOmasPartido)
+    # schedule.every(1).minute.do(envioGeneral,filtro4,"Local Estrategia 2",4,-80,BetSolver_Over_05_UnGolOmasPartido)
+    # schedule.every(1).minute.do(envioGeneral,filtro4,"Visitante  Estrategia 2",4,-80,BetSolver_Over_05_UnGolOmasPartido)
 
     schedule.every(1).minute.do(envioGeneral,filtro5,"Local Estrategia 8",5,-80,BetSolver_Over_05_UnGolOmasPartido)
     schedule.every(1).minute.do(envioGeneral,filtro5,"Visitante  Estrategia 8",5,-80,BetSolver_Over_05_UnGolOmasPartido)
 
-    schedule.every(1).minute.do(envioGeneral,filtro3,"Local Estrategia 4",3,-17,Betsolver_FullTime_25_TresOMasGolesPartido)
-    schedule.every(1).minute.do(envioGeneral,filtro3,"Visitante  Estrategia 4",3,-17,Betsolver_FullTime_25_TresOMasGolesPartido)
+    schedule.every(1).minute.do(envioGeneral,filtro6,"Local Estrategia 6",6,-80,BetSolver_Over_05_UnGolOmasPartido)
+    schedule.every(1).minute.do(envioGeneral,filtro6,"Visitante  Estrategia 6",6,-80,BetSolver_Over_05_UnGolOmasPartido)
+
 
     schedule.every(1).minute.do(envioGeneral,filtroPatrones,"Partidos Local Patrones",3,-70,BetSolver_EquiposFavOver1_5)
     schedule.every(1).minute.do(envioGeneral,filtroPatrones,"Partidos Visitante Patrones",3,-70,BetSolver_EquiposFavOver1_5)
