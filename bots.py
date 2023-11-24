@@ -214,27 +214,27 @@ if __name__ == '__main__':
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[9] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[9] + "\n"
                             cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT.jpeg", cadena, canal)
+                            tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT_MatBroker.jpg", cadena, canal)
 
                             
                         if(nombreEstrategia == "Visitante  Estrategia 3.5"): #DOS GOLES PRIMER TIEMPO HT 
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[9] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[9] + "\n"
                             cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT.jpeg", cadena, canal)
+                            tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT_MatBroker.jpg", cadena, canal)
 
            
                         if(nombreEstrategia == "Local Estrategia 3"): #DOS GOLES PRIMER TIEMPO HT LOCAL 
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[9] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[9] + "\n"
                             cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT.jpeg", cadena, canal)
+                            tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT_MatBroker.jpg", cadena, canal)
 
                         if(nombreEstrategia == "Visitante  Estrategia 3"): #DOS GOLES PRIMER TIEMPO HT VISITANTE
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[9] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
                             cadena = "Apuesta en vivo 🔥" +  "\n" + "<b>🔊Fecha: </b>" + str(x[0]) + "\n" + "<b>🚨Hora: </b>" + str(x[1].strftime("%H:%M:%S")) + "\n" + "<b>⚽️Liga: </b>" + str(x[2]) + "\n" + "<b>🤑Local: </b>" + x[3] + "\n" + "<b>🤑Visitante: </b>" +  x[9] + "\n"
                             cadena += "<a  target='_blank' href='https://app.afiliago.com/paygo/markbroker'>ENTRA AQUÍ YA..!! GRUPO VIP</a>"
-                            tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT.jpeg", cadena, canal)
+                            tb.send_photo_to_channel("../Futbol/Imagenes/UnGolOMasPrimerTiempo0_5HT_MatBroker.jpg", cadena, canal)
                
                         if(nombreEstrategia == "Local Estrategia 5"):     
                             print("Se envio " + "Liga: " + str(x[2]) + " Local: " + x[3] + " Visitante: " +  x[4] + " " + nombreEstrategia + " con " + filtro + ". Hora del partido: " + horaActual)
